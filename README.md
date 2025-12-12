@@ -1,65 +1,83 @@
-# Rotating-the-Gaming-Object
-## Name: ARCHANA S
-## Reg No: 212223040019
+# EX NO 1: Cloud-account-set-up-and-services
+
+### Name : ARCHANA S
+### Reg no: 212223040019
+
 ## Aim:
-To develop a 3D application for rotating the gaming objects in unity.
-## Algorithm:
-### Step1:
-Start
-### Start2:
-Click File -> Scene -> Select the scene -> Save as-> New folder(Scenes)-> File name (Expno1)
-### Start3:
-Click Hierarchy -> 3DObject -> Cylinder
-Hierarchy -> 3DObject -> Capsule
-Hierarchy -> 3DObject -> Text
-Hierarchy -> Effects -> Particle system
-### Start4:
-Create a folder in project and name as Materials
-Material folder -> Create -> Material (Name: Cylinder)
-Inspector ->Surface Inputs ->BaseMAp (Choose the color)
-Drag the Cylinder to the plane and release the mouse
+To create an cloud account in AWS and to explore all of its services.
 
-Create a folder in project and name as Materials
-Material folder -> Create -> Material (Name: Capsule)
-Inspector ->Surface Inputs ->BaseMAp (Choose the color)
-Drag the Capsule to the plane and release the mouse
+## Procedure
+Step 1: Go to the AWS Website
+• Visit https://aws.amazon.com
 
-### Start5:
-Click Hierarchy -> DirectionalLight
-Inspector -> Change the color to white (255,255,255)
+• Click “Create an AWS Account” in the top right corner.
 
-### Start6:
-Create a folder name Coding and create a C# file to add the coding in it.
+Step 2: Enter Account Information
+• Email address – Use a valid email you have access to.
 
-### Start7:
-To add our C# Script file to our selected object, click on the C# Script file and drag it to our selected objects in the Hierarchy window nad run the application.
+• Password – Create a strong password.
 
-### Start8:
-Stop
+• AWS account name – This is the name you want to associate with your AWS account (e.g., your name or company name).
 
-## Program:
-```
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+Step 3: Choose Account Type
+• Personal or Professional – Select based on how you plan to use AWS.
 
-public class Rotate : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+• Fill in your contact information (name, address, phone number).
 
-    // Update is called once per frame
-    void Update()
-    {
-        transform.RotateAround(Vector3.left, Vector3.up, 40 * Time.deltaTime);
-    }
-}
-```
+Step 4: Enter Payment Information
+• Provide credit/debit card details.
+
+Note: You won’t be charged immediately. AWS offers a Free Tier, but entering card details is mandatory.
+
+Step 5: Verify Your Identity
+• Enter your phone number.
+
+• AWS will send a verification code via call or text.
+
+• Enter the code to confirm your identity.
+
+Step 6: Choose a Support Plan
+Choose one of the following: • Basic Support (Free)
+
+• Developer Support
+
+• Business Support
+
+• Enterprise Support
+
+For most beginners, select Basic Support.
+
+Step 7: Complete the Sign-Up
+• After reviewing all the details, click "Sign Up".
+
+• You’ll receive a confirmation email once your account is activated (usually within a few minutes).
+
+Step 8: Sign In to AWS Console
+• Go to https://console.aws.amazon.com
+
+• Log in using your email and password to start using AWS services.
+
+Create a user with administrative access
+After you sign up for an AWS account, secure your AWS account root user, enable AWS IAM Identity Center, and create an administrative user so that you don't use the root user for everyday tasks.
+
+Secure your AWS account root user
+Sign in to the AWS Management Console (https://console.aws.amazon.com) as the account owner by choosing Root user and entering your AWS account email address. On the next page, enter your password. Turn on multi-factor authentication (MFA) for your root user.
+
+Create user with administrative access
+Enable IAM Identity Center. In IAM Identity Center, grant administrative access to a user.
+
+Sign in as the user with administrative access
+To sign in with your IAM Identity Center user, use the sign-in URL that was sent to your email address when you created the IAM Identity Center user.
+
+Services Overview:
+• Explore all the available services in AWS platform.
+
 ## Output:
-<img width="1896" height="1012" alt="exp1 op" src="https://github.com/user-attachments/assets/7b4aecc2-3673-4483-9666-9bd3ba4eede9" />
+
+<img width="1898" height="908" alt="Screenshot 2025-11-14 135514" src="https://github.com/user-attachments/assets/5e5d714f-d0ad-49c6-b4b4-223d9340e545" />
+
+<img width="1919" height="908" alt="Screenshot 2025-11-14 135547" src="https://github.com/user-attachments/assets/2ea203e3-7675-4c51-8a84-30a6bdedfd06" />
 
 ## Result:
-The 3D application for rotating the gaming objects in unity is executed sucessfully.
+Thus an account was created in AWS platform and all the services were explored.
+
